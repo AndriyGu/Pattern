@@ -1,4 +1,4 @@
-package bilder;
+package bilder.bilderRefactorG;
 
 /**
  * Demo class. Everything comes together here.

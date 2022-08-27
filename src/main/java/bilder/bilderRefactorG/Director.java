@@ -1,4 +1,4 @@
-package bilder;
+package bilder.bilderRefactorG;
 
 /**
  * Director defines the order of building steps. It works with a builder object

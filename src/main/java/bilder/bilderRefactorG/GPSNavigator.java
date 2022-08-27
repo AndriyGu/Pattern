@@ -1,4 +1,4 @@
-package bilder;
+package bilder.bilderRefactorG;
 
 /**
  * Just another feature of a car.

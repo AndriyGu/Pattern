@@ -1,9 +1,10 @@
 package bridge.refactoringGuru;
 
-public class Tv implements Device {
+public class Tv implements Device, Display {
     private boolean on = false;
     private int volume = 30;
     private int channel = 1;
+    private int jarkost = 50;
 
     @Override
     public boolean isEnabled() {
@@ -54,5 +55,15 @@ public class Tv implements Device {
         System.out.println("| Current volume is " + volume + "%");
         System.out.println("| Current channel is " + channel);
         System.out.println("------------------------------------\n");
+    }
+
+    @Override
+    public int getJarkost() {
+        return 0;
+    }
+
+    @Override
+    public void setJarkost(int percent) {
+        this.jarkost = percent;
     }
 }

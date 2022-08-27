@@ -1,4 +1,4 @@
-package bilder;
+package bilder.bilderRefactorG;
 
 /**
  * Car is a product class.

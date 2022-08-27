@@ -1,4 +1,4 @@
-package bilder;
+package bilder.bilderRefactorG;
 
 /**
  * Car manual is another product. Note that it does not have the same ancestor

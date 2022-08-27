@@ -8,6 +8,12 @@ public class Demo {
     static int TREE_TYPES = 2;
 
     public static void main(String[] args) {
+        
+        var ff = "vhhg";
+
+        var rr = new Forest();
+
+        var ee = rr.toString();
         Forest forest = new Forest();
         for (int i = 0; i < Math.floor(TREES_TO_DRAW / TREE_TYPES); i++) {
             forest.plantTree(random(0, CANVAS_SIZE), random(0, CANVAS_SIZE),
