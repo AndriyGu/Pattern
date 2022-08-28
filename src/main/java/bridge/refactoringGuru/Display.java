@@ -2,7 +2,7 @@ package bridge.refactoringGuru;
 
 public interface Display {
 
-    int getJarkost();
+    int getBrightness();
 
-    void setJarkost(int percent);
+    void setBrightness(int percent);
 }

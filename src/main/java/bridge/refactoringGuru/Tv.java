@@ -4,7 +4,7 @@ public class Tv implements Device, Display {
     private boolean on = false;
     private int volume = 30;
     private int channel = 1;
-    private int jarkost = 50;
+    private int brightness = 50;
 
     @Override
     public boolean isEnabled() {
@@ -58,12 +58,12 @@ public class Tv implements Device, Display {
     }
 
     @Override
-    public int getJarkost() {
+    public int getBrightness() {
         return 0;
     }
 
     @Override
-    public void setJarkost(int percent) {
-        this.jarkost = percent;
+    public void setBrightness(int percent) {
+        this.brightness = percent;
     }
 }
